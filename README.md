@@ -74,7 +74,9 @@ The agent follows a "Schema-First" reasoning loop to eliminate SQL syntax hallun
 
  # Future Roadmap
 [] Integrate Vector Search in AlloyDB for unstructured data retrieval.
+
 [] Add Data Quality checks(Great Expectations) within the toolset.
+
 [] Implement a frontend UI using Streamlit.
 
 
