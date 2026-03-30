@@ -1,16 +1,25 @@
 # Project Title: AI-Powered Data Discovery Agent.
-# The Problem: Data Analysts often spend 40% of their time just finding which tables contain the data they need.
-# The Solution: A Gemini-powered agent using the Model Context Protocol (MCP) to interact directly with database schemas via natural language.
-# Tech Stack: * Orchestration: Google ADK (Agent Development Kit).
-# Model: Gemini 1.5 Flash.
-# Protocol: MCP (Model Context Protocol).
-# Compute: Google Cloud Run (Serverless).
+# The Problem: 
+Data Analysts often spend 40% of their time just finding which tables contain the data they need.
+# The Solution: 
+A Gemini-powered agent using the Model Context Protocol (MCP) to interact directly with database schemas via natural language.
+# Tech Stack: 
+* Orchestration: Google ADK (Agent Development Kit).
+# Model: 
+Gemini 1.5 Flash.
+# Protocol: 
+MCP (Model Context Protocol).
+# Compute: 
+Google Cloud Run (Serverless).
 
-# On MCP (The Protocol): "I used MCP because it separates the AI's reasoning from the tool's execution. This is critical for data security—the LLM never sees the raw database credentials; it only interacts with the standardized MCP interface."
+# On MCP (The Protocol): 
+"I used MCP because it separates the AI's reasoning from the tool's execution. This is critical for data security—the LLM never sees the raw database credentials; it only interacts with the standardized MCP interface."
 
-# On ADK (The Framework): "Google's Agent Development Kit allowed me to build a 'Sequential Agent.' This ensures the agent first inspects the schema before it attempts to write a SQL query, reducing hallucinations."
+# On ADK (The Framework): 
+"Google's Agent Development Kit allowed me to build a 'Sequential Agent.' This ensures the agent first inspects the schema before it attempts to write a SQL query, reducing hallucinations."
 
-# On Cloud Run (The Deployment): "By deploying as a serverless container on Cloud Run, the system is highly scalable and cost-effective, only consuming resources when a query is actually being processed."
+# On Cloud Run (The Deployment): 
+"By deploying as a serverless container on Cloud Run, the system is highly scalable and cost-effective, only consuming resources when a query is actually being processed."
 
 # The project works in a 3-step loop:
 
