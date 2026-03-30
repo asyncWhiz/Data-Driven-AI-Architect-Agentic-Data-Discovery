@@ -44,10 +44,14 @@ finding which tables exist, understanding schemas, and verifying column names be
 
 # Techincal Architecture
 The Project follows a Decoupled Agentic Architecture. By using the Model Context Protocol (MCP), the LLM's reasoning is repeated is separated from the data execution layer,ensuring security and modularity
-# Orchestration: Google ADK(Agent Development Kit)
-# LLM : Gemini 1.5 Flash(via Vertex AI)
-# Data Layer: Google Big Query (Public  Data sets or Custom Schemas0
-# Protocol: MCP for tool-calling and data retrieval.
+# Orchestration: 
+Google ADK(Agent Development Kit)
+# LLM : 
+Gemini 1.5 Flash(via Vertex AI)
+# Data Layer: 
+Google Big Query (Public  Data sets or Custom Schemas0
+# Protocol: 
+MCP for tool-calling and data retrieval.
 
 # System workflow
 The agent follows a "Schema-First" reasoning loop to eliminate SQL syntax hallunications:
