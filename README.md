@@ -63,11 +63,14 @@ The agent follows a "Schema-First" reasoning loop to eliminate SQL syntax hallun
 
 # Security & Best Practices
  As a Data Engineer, I have implemented the following production standards:
- # Identify & Access Management(IAM): The agent operates under a service account with "Least Privilege" (Big Query Data Viewer & Vertex AI User).
+ # Identify & Access Management(IAM): 
+ The agent operates under a service account with "Least Privilege" (Big Query Data Viewer & Vertex AI User).
 
- # Environment Isolation: Sensitive configurations are handled via Cloud Run environment  variables, never hardcoded.
+ # Environment Isolation: 
+ Sensitive configurations are handled via Cloud Run environment  variables, never hardcoded.
 
- # Ready-Only Access; The MCP tools are strictly limited to SELECT statements to prevent accidental data modification.
+ # Ready-Only Access:
+ The MCP tools are strictly limited to SELECT statements to prevent accidental data modification.
 
  # Future Roadmap
 [] Integrate Vector Search in AlloyDB for unstructured data retrieval.
