@@ -23,9 +23,12 @@ Google Cloud Run (Serverless).
 
 # The project works in a 3-step loop:
 
-# User Input: "What was our highest selling product in Bengaluru last month?"
-# Reasoning (Gemini): "I need to know the schema of the sales table first." -> Calls get_schema() tool.
-# Action (MCP): The tool returns the column names. Gemini then writes the SQL and calls run_query().
+# User Input: 
+"What was our highest selling product in Bengaluru last month?"
+# Reasoning (Gemini): 
+"I need to know the schema of the sales table first." -> Calls get_schema() tool.
+# Action (MCP):  "
+The tool returns the column names. Gemini then writes the SQL and calls run_query().
 -------------------------------------------------------------------------------------------
 # Data-Driven-AI-Architect-Agentic-Data-Discovery
 An enterprise-grade AI Agent built using the Google Agent Development Kit (ADK) and Gemini 1.5 Flash. This project demonstrates how to bridge the gap between Large Language Models (LLMs) and structured data warehouses like BigQuery using the Model Context Protocol (MCP).
