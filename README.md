@@ -39,7 +39,9 @@ finding which tables exist, understanding schemas, and verifying column names be
 
 # The Solution: This AI Agent acts as an intelligent interface that:
 1.Explores available database and tables.
+
 2.Inspects schemas to understand data types and relationships.
+
 3.Executes validated SQL queries to provide immediate insights via natural language.
 
 # Techincal Architecture
